@@ -200,11 +200,6 @@
   transition: transform 0.3s ease-in;
 }
 
-.like-icon {
-  transform-origin: center center;
-  transform-box: fill-box;
-}
-
 .like-icon .core,
 .like-icon .main-body {
   fill: transparent;
@@ -405,4 +400,3 @@
     gap: 8.5px;
   }
 }
-
