@@ -1,7 +1,6 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --complex-background: 
-    repeating-linear-gradient(
+  --complex-background: repeating-linear-gradient(
       to right,
       #d3d3d3,
       #d3d3d3 2px,
@@ -15,15 +14,11 @@
       transparent 2px,
       transparent 4px
     ),
-    linear-gradient(
-      to bottom,
-      #e7e7e7 0.01%,
-      #1a1a1a 100%
-    );
-     --font-header: 'PressStart2P', sans-serif;
-     --font-article:  'Inter', sans-serif;
-     --background:#fff;
-       --stroke-color: #000000; /* Цвет обводки, можно менять */
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+  --font-header: "PressStart2P", fantasy;
+  --font-article: "Inter", sans-serif;
+  --background: #fff;
+  --stroke-color: #000000;
   --stroke-width: 1px;
-     
+  --accent-color:#000
 }
